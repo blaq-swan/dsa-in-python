@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 from solutions.is_multiple import is_multiple
 
+
 if __name__ == "__main__":
-    try: 
+    try:
         n = 20
         m = 5
         print(is_multiple(n, m))
