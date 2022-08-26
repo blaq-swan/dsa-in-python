@@ -4,6 +4,7 @@ ___
 ## Files
 1. [R-1.1](./solutions/is_multiple.py)
 1. [R-1.2](./solutions/is_even.py)
+1. [R-1.3](./solutions/is_minmax.py)
 
 
 
