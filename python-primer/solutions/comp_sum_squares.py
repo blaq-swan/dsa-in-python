@@ -11,6 +11,6 @@ def comp_square_sum(n) -> int:
         sum of all positive integers
     """
 
-    assert int(n) == n and n > 0, "n must be a positive integer"
+    assert int(n) == n and n >= 0, "n must be a positive integer"
 
     return sum([pow(x, 2) for x in range(n)])
