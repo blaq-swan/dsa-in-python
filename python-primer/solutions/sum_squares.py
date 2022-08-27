@@ -2,7 +2,7 @@
 """square_sum module"""
 
 
-def sum_square(n) -> int:
+def sum_squares(n) -> int:
     """
     finds sum of the squares of all the positive integers smaller than n
     Args:
