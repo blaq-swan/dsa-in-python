@@ -1,7 +1,10 @@
 FUNCTION TO REVERSE A LIST OF INTEGERS
 -------------------------------------
-1. SET PAR = list of integers
-2. SET VAR to hold the first index
-3. ITERATE the list with i:
-	a. SET VAR to PAR at i
-4. RETURN PAR
+1. START
+2. INPUT = list
+3. ITERATE INPUT with i
+	a. ITERATE INPUT with j
+	b. SET INPUT at i to INPUT at j
+	c. SET INPUT at j to INPUT at i
+4. RETURN INPUT
+5. END
