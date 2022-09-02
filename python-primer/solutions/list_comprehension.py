@@ -10,6 +10,3 @@ def powers_of_two():
     """
 
     return [pow(2, x) for x in range(9)]
-
-
-print(powers_of_two())
