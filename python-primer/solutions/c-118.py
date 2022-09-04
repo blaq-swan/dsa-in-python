@@ -10,4 +10,6 @@ def mul_by_next(n):
         list of x by x + 1
     """
 
+    assert int(n) == n and n > 0, "limit must be a positive integer"
+
     return [(x + (pow(x, 2))) for x in range(n)]
