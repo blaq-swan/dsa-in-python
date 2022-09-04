@@ -25,7 +25,17 @@ def are_distinct(sequence) -> bool:
                 counter[x] = 1
         return counter
 
-    for val in count().values():
-        if val > 1:
-            return False
+    def check_elements():
+        """checks the uniqueness of frequencies
+        Returns:
+            True if same, False otherwise
+        """
+
+        checker = list(count().values())
+        n = len(checker)
+        for i in range(1, n):
+            if checker[i] != checker[0]:
+                return False
         return True
+
+    return check_elements()
